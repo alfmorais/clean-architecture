@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "clean-architecture"
+version = "0.1.0"
+description = ""
+authors = ["alfmorais <alfredneto@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "clean_architecture"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pre-commit = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
